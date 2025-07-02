@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import PrivacyPolicy from './PrivacyPolicy'
 import TermsOfUse from './TermsOfUse'
@@ -7,7 +7,7 @@ import Home from './Home'
 function App() {
   return (
     <Router>
-      <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc', marginBottom: '2rem' }}>
+      <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc', marginBottom: '2.5rem' }}>
         <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
         <Link to="/privacy" style={{ marginRight: '1rem' }}>Privacy Policy</Link>
         <Link to="/terms">Terms of Use</Link>
